@@ -31,3 +31,9 @@ run=brutal.pk3
 ```
 
 That's it! I may add more configuration options later, but for now, all you need is the mod's name, and how to run it. The application takes the data on the "run" line, and runs it with the `gzdoom` command, so in this line you may include flags like `-iwad` or `deh` for mods with more complicated setup. If you do not include a `.gzml` file in the mod's directory, the application will assume that there is no complicated setup, and will run the first `.pk3` or `.wad` file it finds within the directory.
+
+# Screenshots
+
+<img width="610" height="807" alt="image" src="https://github.com/user-attachments/assets/c4866b5f-14e3-4350-a6a7-72b5406fa042" /> \
+\
+Here's what the app looks like now. It would look better, but I'm not done with it, and I think I need a couple more hours with the Java Swing documentation.
